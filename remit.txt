@@ -1,2 +1,2 @@
 payload:
-  - 'april.878.im:4433'
+  - 'april.878.im'
