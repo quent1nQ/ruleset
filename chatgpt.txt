@@ -1,2 +1,2 @@
 payload:
-  - 'chat.openai.com'
+  - 'openai.com'
