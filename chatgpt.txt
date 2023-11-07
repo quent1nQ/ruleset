@@ -1,2 +1,4 @@
 payload:
-  - '*.openai.com'
+  - 'openai.com'
+  - 'challenges.cloudflare.com'
+  - 'ai.com'
