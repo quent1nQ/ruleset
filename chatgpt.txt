@@ -3,3 +3,4 @@ payload:
   - '+.ai.com'
   - 'apac-china-courier-4.push-apple.com.akadns.net'
   - 'o33249.ingest.sentry.io'
+  - 'cdn.auth0.com'
