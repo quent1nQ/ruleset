@@ -5,3 +5,4 @@ payload:
   - 'o33249.ingest.sentry.io'
   - 'cdn.auth0.com'
   - 'chatgpt.livekit.cloud'
+  - '+.host.livekit.cloud'
