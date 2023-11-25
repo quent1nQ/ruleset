@@ -2,3 +2,4 @@ payload:
   - 'april.878.im'
   - '+.apple-dns.net'
   - '+.steamcontent.com'
+  - '+.akamaihd.net'
