@@ -1,69 +1,469 @@
-    - { name: '剩余流量：100 GB', type: ss, server: lmnode-525a2888.lmhk01.lma1b2.com, port: 50001, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: 套餐到期：2024-01-04, type: ss, server: lmnode-525a2888.lmhk01.lma1b2.com, port: 50001, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 01', type: ss, server: lmnode-525a2888.lmhk01.lma1b2.com, port: 50001, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 02', type: ss, server: lmnode-525a2888.lmhk02.lma1b2.com, port: 50002, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 03', type: ss, server: lmnode-525a2888.lmhk03.lma1b2.com, port: 50003, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 04', type: ss, server: lmnode-525a2888.lmhk04.lma1b2.com, port: 50004, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 05', type: ss, server: lmnode-525a2888.lmhk05.lma1b2.com, port: 50005, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 06', type: ss, server: lmnode-525a2888.lmhk06.lma1b2.com, port: 50006, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 07', type: ss, server: lmnode-525a2888.lmhk07.lma1b2.com, port: 50007, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 08', type: ss, server: lmnode-525a2888.lmhk08.lma1b2.com, port: 50008, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 09', type: ss, server: lmnode-525a2888.lmhk09.lma1b2.com, port: 50009, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 10', type: ss, server: lmnode-525a2888.lmhk10.lma1b2.com, port: 50010, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 11', type: ss, server: lmnode-525a2888.lmhk11.lma1b2.com, port: 50011, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 12', type: ss, server: lmnode-525a2888.lmhk12.lma1b2.com, port: 50012, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 13', type: ss, server: lmnode-525a2888.lmhk13.lma1b2.com, port: 50013, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 14', type: ss, server: lmnode-525a2888.lmhk14.lma1b2.com, port: 50014, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 15', type: ss, server: lmnode-525a2888.lmhk15.lma1b2.com, port: 50015, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 16', type: ss, server: lmnode-525a2888.lmhk16.lma1b2.com, port: 50016, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 17', type: ss, server: lmnode-525a2888.lmhk17.lma1b2.com, port: 50017, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 18', type: ss, server: lmnode-525a2888.lmhk18.lma1b2.com, port: 50018, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 19', type: ss, server: lmnode-525a2888.lmhk19.lma1b2.com, port: 50019, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '香港 20', type: ss, server: lmnode-525a2888.lmhk20.lma1b2.com, port: 50020, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 01', type: ss, server: lmnode-525a2888.lmtw01.lma1b2.com, port: 50021, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 02', type: ss, server: lmnode-525a2888.lmtw02.lma1b2.com, port: 50022, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 03', type: ss, server: lmnode-525a2888.lmtw03.lma1b2.com, port: 50023, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 04', type: ss, server: lmnode-525a2888.lmtw04.lma1b2.com, port: 50024, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 05', type: ss, server: lmnode-525a2888.lmtw05.lma1b2.com, port: 50025, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 06', type: ss, server: lmnode-525a2888.lmtw06.lma1b2.com, port: 50026, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 07', type: ss, server: lmnode-525a2888.lmtw07.lma1b2.com, port: 50027, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 08', type: ss, server: lmnode-525a2888.lmtw08.lma1b2.com, port: 50028, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 09', type: ss, server: lmnode-525a2888.lmtw09.lma1b2.com, port: 50029, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '台湾 10', type: ss, server: lmnode-525a2888.lmtw10.lma1b2.com, port: 50030, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 01', type: ss, server: lmnode-525a2888.lmsg01.lma1b2.com, port: 50031, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 02', type: ss, server: lmnode-525a2888.lmsg02.lma1b2.com, port: 50032, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 03', type: ss, server: lmnode-525a2888.lmsg03.lma1b2.com, port: 50033, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 04', type: ss, server: lmnode-525a2888.lmsg04.lma1b2.com, port: 50034, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 05', type: ss, server: lmnode-525a2888.lmsg05.lma1b2.com, port: 50035, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 06', type: ss, server: lmnode-525a2888.lmsg06.lma1b2.com, port: 50036, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 07', type: ss, server: lmnode-525a2888.lmsg07.lma1b2.com, port: 50037, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 08', type: ss, server: lmnode-525a2888.lmsg08.lma1b2.com, port: 50038, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 09', type: ss, server: lmnode-525a2888.lmsg09.lma1b2.com, port: 50039, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '新加坡 10', type: ss, server: lmnode-525a2888.lmsg10.lma1b2.com, port: 50040, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 01', type: ss, server: lmnode-525a2888.lmjp01.lma1b2.com, port: 50041, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 02', type: ss, server: lmnode-525a2888.lmjp02.lma1b2.com, port: 50042, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 03', type: ss, server: lmnode-525a2888.lmjp03.lma1b2.com, port: 50043, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 04', type: ss, server: lmnode-525a2888.lmjp04.lma1b2.com, port: 50044, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 05', type: ss, server: lmnode-525a2888.lmjp05.lma1b2.com, port: 50045, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 06', type: ss, server: lmnode-525a2888.lmjp06.lma1b2.com, port: 50046, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 07', type: ss, server: lmnode-525a2888.lmjp07.lma1b2.com, port: 50047, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 08', type: ss, server: lmnode-525a2888.lmjp08.lma1b2.com, port: 50048, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 09', type: ss, server: lmnode-525a2888.lmjp09.lma1b2.com, port: 50049, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '日本 10', type: ss, server: lmnode-525a2888.lmjp10.lma1b2.com, port: 50050, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 01', type: ss, server: lmnode-525a2888.lmus01.lma1b2.com, port: 50051, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 02', type: ss, server: lmnode-525a2888.lmus02.lma1b2.com, port: 50052, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 03', type: ss, server: lmnode-525a2888.lmus03.lma1b2.com, port: 50053, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 04', type: ss, server: lmnode-525a2888.lmus04.lma1b2.com, port: 50054, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 05', type: ss, server: lmnode-525a2888.lmus05.lma1b2.com, port: 50055, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 06', type: ss, server: lmnode-525a2888.lmus06.lma1b2.com, port: 50056, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 07', type: ss, server: lmnode-525a2888.lmus07.lma1b2.com, port: 50057, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 08', type: ss, server: lmnode-525a2888.lmus08.lma1b2.com, port: 50058, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 09', type: ss, server: lmnode-525a2888.lmus09.lma1b2.com, port: 50059, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '美国 10', type: ss, server: lmnode-525a2888.lmus10.lma1b2.com, port: 50060, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '马来西亚 01', type: ss, server: lmnode-525a2888.lmmy01.lma1b2.com, port: 50066, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '马来西亚 02', type: ss, server: lmnode-525a2888.lmmy02.lma1b2.com, port: 50067, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '马来西亚 03', type: ss, server: lmnode-525a2888.lmmy03.lma1b2.com, port: 50068, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '马来西亚 04', type: ss, server: lmnode-525a2888.lmmy04.lma1b2.com, port: 50069, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '马来西亚 05', type: ss, server: lmnode-525a2888.lmmy05.lma1b2.com, port: 50070, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '土耳其 01', type: ss, server: lmnode-525a2888.lmtr01.lma1b2.com, port: 50096, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
-    - { name: '阿根廷 01', type: ss, server: lmnode-525a2888.lmar01.lma1b2.com, port: 50098, cipher: aes-128-gcm, password: d8ab45ee-7725-4817-8597-de3968e70c62, udp: true }
+- cipher: aes-128-gcm
+  name: 香港 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50001
+  server: lmnode-525a2888.lmhk01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 02
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50002
+  server: lmnode-525a2888.lmhk02.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 03
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50003
+  server: lmnode-525a2888.lmhk03.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 04
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50004
+  server: lmnode-525a2888.lmhk04.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 05
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50005
+  server: lmnode-525a2888.lmhk05.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 06
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50006
+  server: lmnode-525a2888.lmhk06.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 07
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50007
+  server: lmnode-525a2888.lmhk07.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 08
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50008
+  server: lmnode-525a2888.lmhk08.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 09
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50009
+  server: lmnode-525a2888.lmhk09.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 10
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50010
+  server: lmnode-525a2888.lmhk10.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 11
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50011
+  server: lmnode-525a2888.lmhk11.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 12
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50012
+  server: lmnode-525a2888.lmhk12.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 13
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50013
+  server: lmnode-525a2888.lmhk13.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 14
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50014
+  server: lmnode-525a2888.lmhk14.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 15
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50015
+  server: lmnode-525a2888.lmhk15.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 16
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50016
+  server: lmnode-525a2888.lmhk16.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 17
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50017
+  server: lmnode-525a2888.lmhk17.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 18
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50018
+  server: lmnode-525a2888.lmhk18.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 19
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50019
+  server: lmnode-525a2888.lmhk19.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 香港 20
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50020
+  server: lmnode-525a2888.lmhk20.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50021
+  server: lmnode-525a2888.lmtw01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 02
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50022
+  server: lmnode-525a2888.lmtw02.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 03
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50023
+  server: lmnode-525a2888.lmtw03.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 04
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50024
+  server: lmnode-525a2888.lmtw04.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 05
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50025
+  server: lmnode-525a2888.lmtw05.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 06
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50026
+  server: lmnode-525a2888.lmtw06.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 07
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50027
+  server: lmnode-525a2888.lmtw07.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 08
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50028
+  server: lmnode-525a2888.lmtw08.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 09
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50029
+  server: lmnode-525a2888.lmtw09.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 台湾 10
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50030
+  server: lmnode-525a2888.lmtw10.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50031
+  server: lmnode-525a2888.lmsg01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 02
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50032
+  server: lmnode-525a2888.lmsg02.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 03
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50033
+  server: lmnode-525a2888.lmsg03.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 04
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50034
+  server: lmnode-525a2888.lmsg04.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 05
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50035
+  server: lmnode-525a2888.lmsg05.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 06
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50036
+  server: lmnode-525a2888.lmsg06.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 07
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50037
+  server: lmnode-525a2888.lmsg07.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 08
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50038
+  server: lmnode-525a2888.lmsg08.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 09
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50039
+  server: lmnode-525a2888.lmsg09.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 新加坡 10
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50040
+  server: lmnode-525a2888.lmsg10.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50041
+  server: lmnode-525a2888.lmjp01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 02
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50042
+  server: lmnode-525a2888.lmjp02.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 03
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50043
+  server: lmnode-525a2888.lmjp03.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 04
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50044
+  server: lmnode-525a2888.lmjp04.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 05
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50045
+  server: lmnode-525a2888.lmjp05.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 06
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50046
+  server: lmnode-525a2888.lmjp06.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 07
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50047
+  server: lmnode-525a2888.lmjp07.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 08
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50048
+  server: lmnode-525a2888.lmjp08.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 09
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50049
+  server: lmnode-525a2888.lmjp09.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 日本 10
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50050
+  server: lmnode-525a2888.lmjp10.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50051
+  server: lmnode-525a2888.lmus01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 02
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50052
+  server: lmnode-525a2888.lmus02.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 03
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50053
+  server: lmnode-525a2888.lmus03.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 04
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50054
+  server: lmnode-525a2888.lmus04.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 05
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50055
+  server: lmnode-525a2888.lmus05.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 06
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50056
+  server: lmnode-525a2888.lmus06.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 07
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50057
+  server: lmnode-525a2888.lmus07.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 08
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50058
+  server: lmnode-525a2888.lmus08.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 09
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50059
+  server: lmnode-525a2888.lmus09.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 美国 10
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50060
+  server: lmnode-525a2888.lmus10.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 马来西亚 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50066
+  server: lmnode-525a2888.lmmy01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 马来西亚 02
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50067
+  server: lmnode-525a2888.lmmy02.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 马来西亚 03
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50068
+  server: lmnode-525a2888.lmmy03.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 马来西亚 04
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50069
+  server: lmnode-525a2888.lmmy04.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 马来西亚 05
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50070
+  server: lmnode-525a2888.lmmy05.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 土耳其 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50096
+  server: lmnode-525a2888.lmtr01.lma1b2.com
+  type: ss
+  udp: true
+- cipher: aes-128-gcm
+  name: 阿根廷 01
+  password: d8ab45ee-7725-4817-8597-de3968e70c62
+  port: 50098
+  server: lmnode-525a2888.lmar01.lma1b2.com
+  type: ss
+  udp: true
