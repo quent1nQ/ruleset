@@ -23,3 +23,4 @@ payload:
   - '+.steamuserimages-a.akamaihd.net'
   - '+.steamserver.net'
   - '+.baidu.com'
+  - '+.gofile.io'
