@@ -6,4 +6,4 @@ payload:
   - 'cdn.auth0.com'
   - '+.livekit.cloud'
   - '+.host.livekit.cloud'
-  - 'webpubsub.azure.com'
+  - '+.webpubsub.azure.com'
