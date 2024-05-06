@@ -28,7 +28,7 @@ payload:
   - '+.bing.com'
   - '+.sentry.io'
   - '+.identrust.com'
-  - '+.openaiapi-site.azureedge.net
+  - '+.openaiapi-site.azureedge.net'
   - '+.poe.com'
   - '+.servd-anthropic-website.b-cdn.net
   - '+.anthropic.com'
