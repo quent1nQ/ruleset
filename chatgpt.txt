@@ -30,6 +30,6 @@ payload:
   - '+.identrust.com'
   - '+.openaiapi-site.azureedge.net'
   - '+.poe.com'
-  - '+.servd-anthropic-website.b-cdn.net
+  - '+.servd-anthropic-website.b-cdn.net'
   - '+.anthropic.com'
   - '+.claude.ai'
