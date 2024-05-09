@@ -1,7 +1,7 @@
 proxies:
   - name: 防失联网址：xq.wtf
     type: vmess
-    server: 1715224455.zl.51vv.top
+    server: 1715245337.zl.51vv.top
     port: 42010
     uuid: 107f4b4f-7888-4a49-b20e-86f26cda7625
     alterId: 0
@@ -9,231 +9,231 @@ proxies:
     udp: true
   - name: 🇭🇰 香港01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55320
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇭🇰 香港02丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55321
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇨🇳 台湾01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55331
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇸🇬 新加坡01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55322
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇸🇬 新加坡02丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55323
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇯🇵 日本01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55324
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇯🇵 日本02丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55325
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇰🇷 韩国01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55328
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇰🇷 韩国02丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55329
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇲🇴 澳门丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55348
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇲🇾 马来西丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55336
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇹🇭 泰国01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55340
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇺🇸 美国01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55326
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇺🇸 美国02丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55327
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇦🇺 澳大利丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55333
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇩🇪 德国01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55332
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇨🇦 加拿大丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55334
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇷🇺 俄罗斯丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55337
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇻🇳 越南丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55343
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇵🇭 菲律宾丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55342
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇬🇧 英国01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55335
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇲🇨 印尼01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55344
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇹🇷 土耳其丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55339
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇧🇷 巴西01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55341
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇦🇶 南极洲丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55346
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇮🇳 印度01丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55338
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇦🇷 阿根廷丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55330
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇵🇰 巴基斯坦丨IEPL 1.0x
     type: ss
-    server: 1715224455.zx.33cq.xyz
+    server: 1715245337.zx.33cq.xyz
     port: 55345
     cipher: aes-128-gcm
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇭🇰 香港05丨中转 1.0x
     type: ss
-    server: 1715224455.zz.33cq.xyz
+    server: 1715245337.zz.33cq.xyz
     port: 51351
     cipher: chacha20-ietf-poly1305
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇭🇰 香港06丨中转  1.0x
     type: ss
-    server: 1715224455.zz.33cq.xyz
+    server: 1715245337.zz.33cq.xyz
     port: 51352
     cipher: chacha20-ietf-poly1305
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇭🇰 香港07丨中转  1.0x
     type: ss
-    server: 1715224455.zz.33cq.xyz
+    server: 1715245337.zz.33cq.xyz
     port: 51353
     cipher: chacha20-ietf-poly1305
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 🇭🇰 香港08丨中转  1.0x
     type: ss
-    server: 1715224455.zz.33cq.xyz
+    server: 1715245337.zz.33cq.xyz
     port: 51354
     cipher: chacha20-ietf-poly1305
     password: 107f4b4f-7888-4a49-b20e-86f26cda7625
     udp: true
   - name: 官网：xq.cyou
     type: vmess
-    server: 1715224455.zl.51vv.top
+    server: 1715245337.zl.51vv.top
     port: 42011
     uuid: 107f4b4f-7888-4a49-b20e-86f26cda7625
     alterId: 0
@@ -241,7 +241,7 @@ proxies:
     udp: true
   - name: 导航网：xqcloud.in
     type: vmess
-    server: 1715224455.zl.51vv.top
+    server: 1715245337.zl.51vv.top
     port: 42012
     uuid: 107f4b4f-7888-4a49-b20e-86f26cda7625
     alterId: 0
