@@ -1,0 +1,275 @@
+proxies:
+  - name: （看这里）每月刷新订阅获取新节点
+    type: trojan
+    server: 0.0.0.0
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    network: ws
+    udp: true
+    sni: 0.0.0.0
+    skip-cert-verify: true
+  - name: 一元机场.ink
+    type: trojan
+    server: 0.0.0.0
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    network: ws
+    udp: true
+    sni: 0.0.0.0
+    skip-cert-verify: true
+  - name: 🇭🇰香港 01 | 专线
+    type: trojan
+    server: hk1.e53f835c-98b7-bb18-b9bf-843100eb4dcf.6df03129.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 02 | 专线
+    type: trojan
+    server: hk2.e53f835c-98b7-bb18-b9bf-843100eb4dcf.24ba0f77.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 03 | 专线
+    type: trojan
+    server: hk3.e53f835c-98b7-bb18-b9bf-843100eb4dcf.0d1f6a51.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 04 | 专线
+    type: trojan
+    server: hk4.e53f835c-98b7-bb18-b9bf-843100eb4dcf.66dc3db5.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 05 | 专线
+    type: trojan
+    server: hk5.e53f835c-98b7-bb18-b9bf-843100eb4dcf.52629f87.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 06 | 专线
+    type: trojan
+    server: hk6.e53f835c-98b7-bb18-b9bf-843100eb4dcf.7817bed2.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 07 | 专线
+    type: trojan
+    server: hk7.e53f835c-98b7-bb18-b9bf-843100eb4dcf.8fb10e3d.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇭🇰香港 08 | 专线
+    type: trojan
+    server: hk8.e53f835c-98b7-bb18-b9bf-843100eb4dcf.b12b4427.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 01 | 专线
+    type: trojan
+    server: jp1.e53f835c-98b7-bb18-b9bf-843100eb4dcf.7adf211e.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 02 | 专线
+    type: trojan
+    server: jp2.e53f835c-98b7-bb18-b9bf-843100eb4dcf.02444020.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 03 | 专线
+    type: trojan
+    server: jp3.e53f835c-98b7-bb18-b9bf-843100eb4dcf.5584fc1f.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 04 | 专线
+    type: trojan
+    server: jp4.e53f835c-98b7-bb18-b9bf-843100eb4dcf.69408ae5.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 05 | 25倍计费！
+    type: trojan
+    server: jp5.e53f835c-98b7-bb18-b9bf-843100eb4dcf.cfe6fe33.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 06 | 25倍计费！
+    type: trojan
+    server: jp6.e53f835c-98b7-bb18-b9bf-843100eb4dcf.3958a655.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 07 | 25倍计费！
+    type: trojan
+    server: jp7.e53f835c-98b7-bb18-b9bf-843100eb4dcf.722ab11a.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇯🇵日本 08 | 25倍计费！
+    type: trojan
+    server: jp8.e53f835c-98b7-bb18-b9bf-843100eb4dcf.7e2a9604.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 01 | 专线
+    type: trojan
+    server: sg1.e53f835c-98b7-bb18-b9bf-843100eb4dcf.2dde7df3.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 02 | 专线
+    type: trojan
+    server: sg2.e53f835c-98b7-bb18-b9bf-843100eb4dcf.2c4b5066.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 03 | 专线
+    type: trojan
+    server: sg3.e53f835c-98b7-bb18-b9bf-843100eb4dcf.d4f84ebb.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 04 | 专线
+    type: trojan
+    server: sg4.e53f835c-98b7-bb18-b9bf-843100eb4dcf.2ce203e5.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 05 | 专线
+    type: trojan
+    server: sg5.e53f835c-98b7-bb18-b9bf-843100eb4dcf.dede0d54.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 06 | 专线
+    type: trojan
+    server: sg6.e53f835c-98b7-bb18-b9bf-843100eb4dcf.0aca10d1.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 07 | 专线
+    type: trojan
+    server: sg7.e53f835c-98b7-bb18-b9bf-843100eb4dcf.57aaa8ec.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇸🇬新加坡 08 | 专线
+    type: trojan
+    server: sg8.e53f835c-98b7-bb18-b9bf-843100eb4dcf.c586e7c2.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 01 | 专线
+    type: trojan
+    server: us1.e53f835c-98b7-bb18-b9bf-843100eb4dcf.36a8c922.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 02 | 专线
+    type: trojan
+    server: us2.e53f835c-98b7-bb18-b9bf-843100eb4dcf.2f6cd430.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 03 | 专线
+    type: trojan
+    server: us3.e53f835c-98b7-bb18-b9bf-843100eb4dcf.47253001.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 04 | 专线
+    type: trojan
+    server: us4.e53f835c-98b7-bb18-b9bf-843100eb4dcf.30d6a0d0.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 05 | 专线
+    type: trojan
+    server: us5.e53f835c-98b7-bb18-b9bf-843100eb4dcf.6fe0e22c.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 06 | 专线
+    type: trojan
+    server: us6.e53f835c-98b7-bb18-b9bf-843100eb4dcf.617e6ac3.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 07 | 专线
+    type: trojan
+    server: us7.e53f835c-98b7-bb18-b9bf-843100eb4dcf.85860b8f.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
+  - name: 🇺🇸美国 08 | 专线
+    type: trojan
+    server: us8.e53f835c-98b7-bb18-b9bf-843100eb4dcf.f73b4cdf.the-best-airport.com
+    port: 443
+    password: d4d11792-4bbe-4ad7-814b-fc66114a0bd3
+    udp: true
+    sni: 144-22-163-118.nhost.00cdn.com
+    skip-cert-verify: true
