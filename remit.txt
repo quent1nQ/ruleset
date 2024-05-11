@@ -26,6 +26,3 @@ payload:
   - '+.gofile.io'
   - '+.hassbian.com'
   - '+.baidu.com'
-
-  - '123'
-  - '123'
