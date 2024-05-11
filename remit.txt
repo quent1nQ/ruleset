@@ -27,3 +27,4 @@ payload:
   - '+.hassbian.com'
 
 "+.baidu.com"
+  - '+.baidu.com'
