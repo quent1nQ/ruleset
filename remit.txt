@@ -25,3 +25,5 @@ payload:
   - '+.baidu.com'
   - '+.gofile.io'
   - '+.hassbian.com'
+
+"+.baidu.com"
