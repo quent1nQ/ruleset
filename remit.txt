@@ -26,3 +26,4 @@ payload:
   - '+.gofile.io'
   - '+.hassbian.com'
   - '+.baidu.com'
+  - '+.quentinqi.online'
