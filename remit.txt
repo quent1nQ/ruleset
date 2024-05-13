@@ -27,3 +27,4 @@ payload:
   - '+.hassbian.com'
   - '+.baidu.com'
   - '+.quentinqi.online'
+  - '+.cmrioa.hq.cmcc'
