@@ -28,3 +28,4 @@ payload:
   - '+.baidu.com'
   - '+.quentinqi.online'
   - '+.cmrioa.hq.cmcc'
+  - '+.quentinqi.online'
