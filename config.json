@@ -1,6 +1,7 @@
 {
     "urls": [
     "https://xqcloud.vip/api/v1/client/subscribe?token=12d737c5c126d23266c8ca1c9f311d81",
+    "https://xqiang.xyz/api/v1/client/subscribe?token=2dda2d4ecd5c05e9f7024d938f51d1f4",
     "https://sub1.smallstrawberry.com/api/v1/client/subscribe?token=8555889e7f9c4a6fd723cad95266af85"
     ],
     "excludeWords": ["获取", "防失联", "机场", "官网","网"]
