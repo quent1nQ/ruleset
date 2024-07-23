@@ -32,3 +32,4 @@ payload:
   - '+.jiutian.hq.cmcc'
   - 'kessel-api.parsec.app'
   - 'kessel-ws.parsec.app'
+  - 'parsecusercontent.com'
