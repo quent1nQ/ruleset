@@ -31,3 +31,4 @@ payload:
   - '+.quentinqi.online'
   - '+.jiutian.hq.cmcc'
   - 'kessel-api.parsec.app'
+  - 'kessel-ws.parsec.app'
