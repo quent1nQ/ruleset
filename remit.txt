@@ -34,3 +34,4 @@ payload:
   - 'kessel-ws.parsec.app'
   - 'parsecusercontent.com'
   - 'public.parsec.app'
+  - 'stun.parsec.app'
