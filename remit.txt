@@ -30,3 +30,4 @@ payload:
   - '+.cmrioa.hq.cmcc'
   - '+.quentinqi.online'
   - '+.jiutian.hq.cmcc'
+  - 'kessel-api.parsec.app'
