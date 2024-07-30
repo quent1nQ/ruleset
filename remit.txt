@@ -35,3 +35,4 @@ payload:
   - 'parsecusercontent.com'
   - 'public.parsec.app'
   - 'stun.parsec.app'
+  - 'doc.cmri.cn'
