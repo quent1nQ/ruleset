@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+        header {
+            background-color: #ffffff;
+            color: #1d1d1f;
+            padding: 15px 0;
+            text-align: center;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            padding: 0 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        nav a {
+            color: #1d1d1f;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        nav a:hover {
+            color: #0071e3;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .tabs .tab {
+            padding: 14px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            color: #1d1d1f;
+            text-align: center;
+            flex: 1;
+        }
+        .tabs .tab:hover, .tabs .tab.active {
+            color: #0071e3;
+            border-bottom: 2px solid #0071e3;
+        }
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+        .search-box input[type="text"] {
+            padding: 6px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            outline: none;
+        }
+        .search-box button {
+            padding: 6px 10px;
+            background-color: #0071e3;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .search-box button:hover {
+            background-color: #005bb5;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .box {
+            background-color: #ffffff;
+            color: #1d1d1f;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 calc(33% - 40px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            min-width: 200px;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+        .image-box {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 100%;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        .image-box img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #ffffff;
+            color: #1d1d1f;
+            text-align: center;
+            padding: 10px 0;
+            border-top: 1px solid #e0e0e0;
+        }
+        .login-status {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .login-box, .logout-box {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .login-box input[type="text"], .login-box input[type="password"] {
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            outline: none;
+        }
+        .login-box button, .logout-box button {
+            padding: 10px 20px;
+            background-color: #0071e3;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .login-box button:hover, .logout-box button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+
+    <!-- Matomo -->
+<script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//39.105.193.161:8180/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '2']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Matomo Code -->
+  
+        
+</head>
+<body>
+    <header>
+        <h1>欢迎来到主页！</h1>
+    </header>
+
+    <nav>
+        <div>
+            <a href="#">主页</a>
+            <a href="#">关于我们</a>
+            <a href="#">服务</a>
+            <a href="#">联系我们</a>
+        </div>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="搜索...">
+            <button onclick="search()">搜索</button>
+        </div>
+    </nav>
+
+    <div class="tabs">
+        <div class="tab active" onclick="selectTab(this)">Tab 1</div>
+        <div class="tab" onclick="selectTab(this)">Tab 2</div>
+        <div class="tab" onclick="selectTab(this)">Tab 3</div>
+        <div class="tab" onclick="selectTab(this)">Tab 4</div>
+        <div class="tab" onclick="selectTab(this)">Tab 5</div>
+    </div>
+
+    <div class="login-status" id="loginStatus">未登录</div>
+    <div id="userIdDiv" style="display:none;"></div>
+
+    <div class="login-box" id="loginBox">
+        <input type="text" id="username" placeholder="用户名">
+        <input type="password" id="userId" placeholder="用户ID">
+        <button onclick="login()">登录</button>
+    </div>
+
+    <div class="logout-box" id="logoutBox" style="display:none;">
+        <button onclick="logout()">登出</button>
+    </div>
+
+    <div class="container">
+        <div class="box" onclick="goToPage('page1.html')">进入子页面1</div>
+        <div class="box" onclick="goToPage('page2.html')">进入子页面2</div>
+        <div class="box">内容块 3</div>
+        <div class="box">内容块 4</div>
+        <div class="box">内容块 5</div>
+        <div class="box">内容块 6</div>
+        <div class="box">内容块 7</div>
+        <div class="box">内容块 8</div>
+        <div class="box">内容块 9</div>
+        <div class="image-box">
+            <img src="/sources/image-1.webp" alt="Image 1">
+        </div>
+        <div class="image-box">
+            <img src="/sources/image-1.webp" alt="Image 2">
+        </div>
+        <div class="image-box">
+            <img src="/sources/image-1.webp" alt="Image 3">
+        </div>
+        <div class="image-box">
+            <img src="/sources/image-1.webp" alt="Image 4">
+        </div>
+        <div class="image-box">
+            <img src="/sources/image-1.webp" alt="Image 5">
+        </div>
+        <div class="image-box">
+            <img src="/sources/image-1.webp" alt="Image 6">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 您的公司名称. 版权所有.
+    </footer>
+
+    <script>
+        function goToPage(pageUrl) {
+            window.location.href = pageUrl;
+        }
+
+        function search() {
+            var input = document.getElementById("searchInput").value;
+            alert("搜索: " + input);
+            // 您可以在这里添加搜索功能的代码
+        }
+
+        function selectTab(element) {
+            var tabs = document.querySelectorAll('.tabs .tab');
+            tabs.forEach(function(tab) {
+                tab.classList.remove('active');
+            });
+            element.classList.add('active');
+        }
+
+        function login() {
+            var username = document.getElementById("username").value;
+            var userId = document.getElementById("userId").value;
+
+            if (username === "quentinqi" && userId === "930629") {
+                document.getElementById("loginStatus").innerText = "已登录: " + username;
+                document.getElementById("userIdDiv").innerText = userId; // 设置用户ID
+                document.getElementById("loginBox").style.display = "none";
+                document.getElementById("logoutBox").style.display = "block";
+
+                // 将用户信息存储到 LocalStorage
+                localStorage.setItem('username', username);
+                localStorage.setItem('userId', userId);
+
+                // 将用户ID传递给Matomo
+                _paq.push(['setUserId', userId]);
+                _paq.push(['trackPageView']); // 确保在设置用户ID后立即跟踪页面浏览
+            } else {
+                alert("用户名或用户ID不正确");
+            }
+        }
+
+
+        function logout() {
+            document.getElementById("loginStatus").innerText = "未登录";
+            document.getElementById("userIdDiv").innerText = ""; // 清除用户ID
+            document.getElementById("loginBox").style.display = "flex";
+            document.getElementById("logoutBox").style.display = "none";
+
+            // 清除 LocalStorage 中的用户信息
+            localStorage.removeItem('username');
+            localStorage.removeItem('userId');
+
+            // 清除用户ID在Matomo中的设置
+            _paq.push(['resetUserId']);
+            _paq.push(['appendToTrackingUrl', 'new_visit=1']); 
+            _paq.push(['trackPageView']);
+            _paq.push(['appendToTrackingUrl', '']); 
+        }
+
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var userId = document.getElementById("userIdDiv").innerText;
+            if (userId) {
+                _paq.push(['setUserId', userId]);
+                _paq.push(['trackPageView']);
+            }
+        });
+    </script>
+</body>
+</html>
