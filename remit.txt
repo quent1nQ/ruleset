@@ -31,3 +31,4 @@ payload:
   - '+.quentinqi.online'
   - '+.jiutian.hq.cmcc'
   - 'doc.cmri.cn'
+  - '+.hq.cmcc'
