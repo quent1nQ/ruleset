@@ -32,3 +32,4 @@ payload:
   - '+.jiutian.hq.cmcc'
   - 'doc.cmri.cn'
   - '+.hq.cmcc'
+  - '+.civitai.com'
