@@ -33,3 +33,4 @@ payload:
   - 'doc.cmri.cn'
   - '+.hq.cmcc'
   - '+.civitai.com'
+  - '+.macdo.cn'
