@@ -17,8 +17,6 @@ payload:
   - '+.chatgpt.com'
   - '+.hcaptcha.com'
   - '+.recaptcha.net'
-  - '+.sfx.ms'
-  - '+.microsoft.com'
   - '+.oaistatic.com'
   - '+.oaiusercontent.com'
   - '+.ai.com'
