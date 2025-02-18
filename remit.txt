@@ -35,3 +35,4 @@ payload:
   - '+.civitai.com'
   - '+.macdo.cn'
   - '+.hq.cmcc'
+  - 'test.ustc.edu.cn'
