@@ -34,3 +34,4 @@ payload:
   - '+.hq.cmcc'
   - '+.civitai.com'
   - '+.macdo.cn'
+  - '+.hq.cmcc'
