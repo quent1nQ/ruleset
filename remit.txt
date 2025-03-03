@@ -38,3 +38,4 @@ payload:
   - 'test.ustc.edu.cn'
   - 'xboxlive.com'
   - 'xbox.com'
+  - '+.zhimg.com'
