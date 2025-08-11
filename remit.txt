@@ -1,4 +1,39 @@
 payload:
+  # --- NTP 直连（时间不同步会导致 TLS/登录异常）---
+  - DOMAIN,time.apple.com,DIRECT
+  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+
+  # --- 确保上游 DoH 直连 ---
+  - DOMAIN,doh.pub,DIRECT
+  - DOMAIN,dns.alidns.com,DIRECT
+  - DOMAIN,dns.cloudflare.com,DIRECT
+  - DOMAIN,dns.twnic.tw,DIRECT
+  - DOMAIN,doh.dns.sb,DIRECT
+
+  # --- Parsec/Moonlight 直连 ---
+  - DOMAIN-SUFFIX,parsec.gg,DIRECT
+  - DOMAIN-SUFFIX,parsecgaming.com,DIRECT
+  - DOMAIN-SUFFIX,parsec.app,DIRECT
+  - DOMAIN-SUFFIX,parsec.tv,DIRECT
+  - DOMAIN,kessel-api.parsec.app,DIRECT
+  - DOMAIN,kessel-api.parsecgaming.com,DIRECT
+  - DOMAIN,kessel-ws.parsecgaming.com,DIRECT
+  - DOMAIN-SUFFIX,l.google.com,DIRECT
+  - DOMAIN,stun.parsec.gg,DIRECT
+
+  # --- 自有内网服务直连 ---
+  - DOMAIN,nas.quentinqi.online,DIRECT
+  - DOMAIN,moonlight.quentinqi.online,DIRECT
+
+  # --- Steam 登录/好友/下载直连 ---
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
+  - DOMAIN,steamcdn-a.akamaihd.net,DIRECT
+
+  # --- 自己添加 ---
   - 'april.878.im'
   - '+.apple-dns.net'
   - '+.steamcontent.com'
@@ -39,4 +74,5 @@ payload:
   - 'xboxlive.com'
   - 'xbox.com'
   - '+.zhimg.com'
+
 
