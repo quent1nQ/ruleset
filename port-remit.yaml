@@ -1,0 +1,13 @@
+payload:
+  # --- NTP 端口 ---
+  - DST-PORT,123,DIRECT
+
+  # --- 自有内网端口 ---
+  - DST-PORT,2342,DIRECT
+  - DST-PORT,3478,DIRECT
+  - DST-PORT,8000-8010,DIRECT
+
+  # --- Steam 常用端口 ---
+  - DST-PORT,27000-27050,DIRECT
+  - DST-PORT,4380,DIRECT
+  - DST-PORT,3478,DIRECT
