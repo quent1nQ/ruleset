@@ -1,78 +1,72 @@
 payload:
-  # --- NTP 直连（时间不同步会导致 TLS/登录异常）---
-  - DOMAIN,time.apple.com,DIRECT
-  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  # --- NTP 必直连 ---
+  - DOMAIN,time.apple.com
+  - DOMAIN-SUFFIX,aaplimg.com
 
-  # --- 确保上游 DoH 直连 ---
-  - DOMAIN,doh.pub,DIRECT
-  - DOMAIN,dns.alidns.com,DIRECT
-  - DOMAIN,dns.cloudflare.com,DIRECT
-  - DOMAIN,dns.twnic.tw,DIRECT
-  - DOMAIN,doh.dns.sb,DIRECT
+  # --- 上游 DoH 必直连 ---
+  - DOMAIN,doh.pub
+  - DOMAIN,dns.alidns.com
+  - DOMAIN,dns.cloudflare.com
+  - DOMAIN,dns.twnic.tw
+  - DOMAIN,doh.dns.sb
 
-  # --- Parsec/Moonlight 直连 ---
-  - DOMAIN-SUFFIX,parsec.gg,DIRECT
-  - DOMAIN-SUFFIX,parsecgaming.com,DIRECT
-  - DOMAIN-SUFFIX,parsec.app,DIRECT
-  - DOMAIN-SUFFIX,parsec.tv,DIRECT
-  - DOMAIN,kessel-api.parsec.app,DIRECT
-  - DOMAIN,kessel-api.parsecgaming.com,DIRECT
-  - DOMAIN,kessel-ws.parsecgaming.com,DIRECT
-  - DOMAIN-SUFFIX,l.google.com,DIRECT
-  - DOMAIN,stun.parsec.gg,DIRECT
+  # --- Parsec/Moonlight 必直连 ---
+  - DOMAIN-SUFFIX,parsec.gg
+  - DOMAIN-SUFFIX,parsecgaming.com
+  - DOMAIN-SUFFIX,parsec.app
+  - DOMAIN-SUFFIX,parsec.tv
+  - DOMAIN,kessel-api.parsec.app
+  - DOMAIN,kessel-api.parsecgaming.com
+  - DOMAIN,kessel-ws.parsecgaming.com
+  - DOMAIN-SUFFIX,l.google.com
+  - DOMAIN,stun.parsec.gg
 
-  # --- 自有内网服务直连 ---
-  - DOMAIN,nas.quentinqi.online,DIRECT
-  - DOMAIN,moonlight.quentinqi.online,DIRECT
+  # --- 自有/内网服务 必直连 ---
+  - DOMAIN,nas.quentinqi.online
+  - DOMAIN,moonlight.quentinqi.online
 
-  # --- Steam 登录/好友/下载直连 ---
-  - DOMAIN-SUFFIX,steampowered.com,DIRECT
-  - DOMAIN-SUFFIX,steamserver.net,DIRECT
-  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
-  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
-  - DOMAIN-SUFFIX,steamusercontent.com,DIRECT
-  - DOMAIN,steamcdn-a.akamaihd.net,DIRECT
+  # --- Steam 登录/好友/下载 必直连 ---
+  - DOMAIN-SUFFIX,steampowered.com
+  - DOMAIN-SUFFIX,steamserver.net
+  - DOMAIN-SUFFIX,steamcontent.com
+  - DOMAIN-SUFFIX,steamstatic.com
+  - DOMAIN-SUFFIX,steamusercontent.com
+  - DOMAIN,steamcdn-a.akamaihd.net
 
-  # --- 自己添加 ---
-  - 'april.878.im'
-  - '+.apple-dns.net'
-  - '+.steamcontent.com'
-  - '+.akamaihd.net'
-  - '+.steamchina.com'
-  - '+.csgo.wmsj.cn'
-  - '+.dota2.wmsj.cn'
-  - '+.wmsjsteam.com'
-  - '+.dl.steam.clngaa'
-  - '+.dl.steam.ksyna.com'
-  - '+.st.dl.bscstorage.net'
-  - '+.st.dl.eccdnx.com'
-  - '+.st.dl.pinyuncloud.com'
-  - '+.steampipe.steamcontent.tnkjmec.com'
-  - '+.steampowered.com.8686c.com'
-  - '+.steamstatic.com.8686c.com'
-  - '+.steambroadcast.akamaized.net'
-  - '+.steamcdn-a.akamaihd.net'
-  - '+.steamcommunity-a.akamaihd.net'
-  - '+.steamstore-a.akamaihd.net'
-  - '+.steamusercontent-a.akamaihd.net'
-  - '+.steamuserimages-a.akamaihd.net'
-  - '+.steamserver.net'
-  - '+.baidu.com'
-  - '+.gofile.io'
-  - '+.hassbian.com'
-  - '+.baidu.com'
-  - '+.quentinqi.online'
-  - '+.cmrioa.hq.cmcc'
-  - '+.quentinqi.online'
-  - '+.jiutian.hq.cmcc'
-  - 'doc.cmri.cn'
-  - '+.hq.cmcc'
-  - '+.civitai.com'
-  - '+.macdo.cn'
-  - '+.hq.cmcc'
-  - 'test.ustc.edu.cn'
-  - 'xboxlive.com'
-  - 'xbox.com'
-  - '+.zhimg.com'
-
-
+  # --- 你自添（整理去重后） ---
+  - DOMAIN,april.878.im
+  - DOMAIN-SUFFIX,apple-dns.net
+  - DOMAIN-SUFFIX,akamaihd.net
+  - DOMAIN-SUFFIX,steamchina.com
+  - DOMAIN-SUFFIX,csgo.wmsj.cn
+  - DOMAIN-SUFFIX,dota2.wmsj.cn
+  - DOMAIN-SUFFIX,wmsjsteam.com
+  - DOMAIN-SUFFIX,dl.steam.clngaa           # 看起来像镜像域，保留
+  - DOMAIN-SUFFIX,dl.steam.ksyna.com
+  - DOMAIN-SUFFIX,st.dl.bscstorage.net
+  - DOMAIN-SUFFIX,st.dl.eccdnx.com
+  - DOMAIN-SUFFIX,st.dl.pinyuncloud.com
+  - DOMAIN,steampipe.steamcontent.tnkjmec.com
+  - DOMAIN,steampowered.com.8686c.com
+  - DOMAIN,steamstatic.com.8686c.com
+  - DOMAIN,steambroadcast.akamaized.net
+  - DOMAIN,steamcdn-a.akamaihd.net
+  - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,steamstore-a.akamaihd.net
+  - DOMAIN,steamusercontent-a.akamaihd.net
+  - DOMAIN,steamuserimages-a.akamaihd.net
+  - DOMAIN-SUFFIX,steamserver.net            # 与前面一致，保留
+  - DOMAIN-SUFFIX,baidu.com
+  - DOMAIN-SUFFIX,gofile.io
+  - DOMAIN-SUFFIX,hassbian.com
+  - DOMAIN-SUFFIX,quentinqi.online
+  - DOMAIN-SUFFIX,cmrioa.hq.cmcc
+  - DOMAIN-SUFFIX,jiutian.hq.cmcc
+  - DOMAIN,doc.cmri.cn
+  - DOMAIN-SUFFIX,hq.cmcc
+  - DOMAIN-SUFFIX,civitai.com
+  - DOMAIN-SUFFIX,macdo.cn
+  - DOMAIN,test.ustc.edu.cn
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,zhimg.com
